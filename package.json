@@ -1,10 +1,14 @@
 {
-	"name": "buntysep",
+	"name": "go2social-sitemap",
 	"private": true,
 	"license": "MIT",
 	"author": "Viktor Shchelochkov <hi@hloth.dev> (https://hloth.dev)",
 	"type": "module",
 	"module": "src/index.ts",
+	"dependencies": {
+		"elysia": "^1.4.28",
+		"zod": "^4.3.6"
+	},
 	"devDependencies": {
 		"@eslint/js": "^10.0.1",
 		"@types/bun": "latest",
