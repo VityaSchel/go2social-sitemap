@@ -87,6 +87,7 @@ new Elysia()
 	})
 	.listen(
 		{
+			hostname: Bun.env.HOST ?? "127.0.0.1",
 			port: Bun.env.PORT,
 		},
 		({ protocol, hostname, port }) => {
