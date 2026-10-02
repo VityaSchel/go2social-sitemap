@@ -1,6 +1,6 @@
 # GoToSocial sitemap.xml generator
 
-GoToSocial sitemap generator written in Go. 100 lines of code. Deploy a single binary.
+GoToSocial sitemap generator written in Go. 100 lines of code. Deploy a single reproducible 6.8 MB binary.
 
 ## Setup
 
